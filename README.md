@@ -29,9 +29,9 @@ The needed logic expands on the Fantasy Baseball Salary Cap Calculator: https://
 
 ### Result
 
-    ----------------------------------------
+    ---------------------------------------
      ID      Punting Strategy        Score
-    ----------------------------------------
+    ---------------------------------------
      13      - HR RBI SB ---         646.8
      4       R HR RBI -- ---         628.7
      10      R -- RBI -- AVG         591.8
@@ -48,8 +48,8 @@ The needed logic expands on the Fantasy Baseball Salary Cap Calculator: https://
      15      - HR --- SB AVG         380.0
      1       R HR RBI SB AVG         379.9
      5       R HR --- SB AVG         379.1
-    ----------------------------------------
-    ----------------------------------------
+    ---------------------------------------
+    ---------------------------------------
 
 ### Demo
 
