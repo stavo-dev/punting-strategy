@@ -30,24 +30,24 @@ The needed logic expands on the Fantasy Baseball Salary Cap Calculator: https://
 ### Result
 
     ---------------------------------------------
-    ID      Punting Strategy    Score
+    ID      Punting Strategy        Score
     ---------------------------------------------
     13      - HR RBI SB ---         646.8
     4       R HR RBI -- ---         628.7
     10      R -- RBI -- AVG         591.8
     11      R -- --- SB AVG         573.2
     14      - HR RBI -- AVG         556.5
-    7	    R HR --- -- AVG         508.4
-    3	    R HR RBI -- AVG         497.1
-    6	    R HR --- SB ---         475.8
-    16	    - -- RBI SB AVG         464.8
-    2	    R HR RBI SB ---         463.5
-    8	    R -- RBI SB AVG         459.8
-    9	    R -- RBI SB ---         423.4
-    12	    - HR RBI SB AVG         395.9
-    15	    - HR --- SB AVG         380.0
-    1	    R HR RBI SB AVG         379.9
-    5	    R HR --- SB AVG         379.1
+    7       R HR --- -- AVG         508.4
+    3       R HR RBI -- AVG         497.1
+    6       R HR --- SB ---         475.8
+    16      - -- RBI SB AVG         464.8
+    2       R HR RBI SB ---         463.5
+    8       R -- RBI SB AVG         459.8
+    9       R -- RBI SB ---         423.4
+    12      - HR RBI SB AVG         395.9
+    15      - HR --- SB AVG         380.0
+    1       R HR RBI SB AVG         379.9
+    5       R HR --- SB AVG         379.1
     ---------------------------------------------
     ---------------------------------------------
 
@@ -61,5 +61,6 @@ I created this basic demo to test my logic using MySQL. This demo calculated for
 * limited players to one eligible position.
 
 The MySQL dump is available here: https://github.com/stavo-dev/punting-strategy/blob/main/db_punting_strategy.sql
+Execute the SQL file and them run 'view_stategy_score'.
 
 I’m happy to provide additional MySQL code and formulas upon request.
