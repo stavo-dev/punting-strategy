@@ -8,7 +8,7 @@ Source: https://support.fantasypros.com/hc/en-us/articles/1260803684989-What-doe
 
 ### Punting Strategy Tool
 
-This new tool affords the knowledge needed to optimize draft strategy and settings.
+This new tool affords the knowledge needed to optimize Fantasy Basbeall draft strategy and settings.
 
 ### How it works
 
@@ -21,8 +21,7 @@ The Punting Strategy Tool ingests:
 
 ### Logic
 
-The needed logic expands on the Fantasy Baseball Salary Cap Calculator:
-https://draftwizard.fantasypros.com/editor/createFromProjections.jsp?auction=Y&sport=mlb
+The needed logic expands on the Fantasy Baseball Salary Cap Calculator: https://draftwizard.fantasypros.com/editor/createFromProjections.jsp?auction=Y&sport=mlb
 
 * Punting Strategy (PS) is created from all category combinations.
 * Projected Draft Value (PDV) is subtracted from Player Value (PV) to arrive at Player Alpha (PA).
@@ -32,8 +31,7 @@ https://draftwizard.fantasypros.com/editor/createFromProjections.jsp?auction=Y&s
 
 ### Demo
 
-I created a demo to test my logic using MySQL.
-This demo calculated for
+I created this basic demo to test my logic using MySQL. This demo calculated for:
 
 * hitters,
 * 10 teams,
