@@ -14,19 +14,19 @@ This new tool affords the knowledge needed to optimize draft strategy and settin
 
 The Punting Strategy Tool ingests:
 
-    League Settings,
-    Player Projections,
-    Projected Draft Values, and
-    outputs all category combinations with a Punting Strategy Score.
+* League Settings,
+* Player Projections,
+* Projected Draft Values, and
+* outputs all category combinations with a Punting Strategy Score.
 
 ### Logic
 
 The needed logic expands on the Fantasy Baseball Salary Cap Calculator:
 https://draftwizard.fantasypros.com/editor/createFromProjections.jsp?auction=Y&sport=mlb
 
-    Punting Strategy (PS) is created from all category combinations.
-    Projected Draft Value (PDV) is subtracted from Player Value (PV) to arrive at Player Alpha (PA).
-    Player Alpha (PA) is summed by Punting Strategy (PS) to create the Punting Strategy Score (PSS).
+* Punting Strategy (PS) is created from all category combinations.
+* Projected Draft Value (PDV) is subtracted from Player Value (PV) to arrive at Player Alpha (PA).
+* Player Alpha (PA) is summed by Punting Strategy (PS) to create the Punting Strategy Score (PSS).
 
 ### Result
 
@@ -35,10 +35,10 @@ https://draftwizard.fantasypros.com/editor/createFromProjections.jsp?auction=Y&s
 I created a demo to test my logic using MySQL.
 This demo calculated for
 
-    hitters,
-    10 teams,
-    8 positions, and
-    limited players to one eligible position.
+* hitters,
+* 10 teams,
+* 8 positions, and
+* limited players to one eligible position.
 
 The MySQL dump is available here: https://github.com/stavo-dev/punting-strategy/blob/main/db_punting_strategy.sql
 
